@@ -1,0 +1,212 @@
+/* VASUDEV Large Gradient Text */
+.vasudev-gradient-text {
+  font-size: 7vw;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+  color: #fff;
+  padding: 0.2em 0.5em;
+  border-radius: 0.2em;
+  display: inline-block;
+  transition: background 0.5s cubic-bezier(0.4,0,0.2,1);
+  cursor: pointer;
+  user-select: none;
+}
+.vasudev-gradient-word {
+  background: linear-gradient(90deg, #fff 0%, #fff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  transition: background 0.6s cubic-bezier(0.4,0,0.2,1), -webkit-text-fill-color 0.6s cubic-bezier(0.4,0,0.2,1);
+}
+.vasudev-gradient-text:hover .vasudev-gradient-word {
+  background: linear-gradient(90deg, #ff512f 0%, #ff512f 40%, #f09819 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.contact-section {
+  margin: auto;
+  padding-bottom: 100px;
+}
+.contact-section h3 {
+  font-size: 20px;
+  font-weight: 200;
+  text-transform: uppercase;
+  margin: 0;
+  font-family: 'sans-serif';
+}
+
+/* RPG Modern Contact Section (flattened) */
+.rpg-contact-bg {
+  background: linear-gradient(135deg, #18181b 60%, #23232b 100%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+.rpg-contact-card {
+  background: rgba(24, 24, 27, 0.85);
+  border-radius: 32px;
+  box-shadow: 0 0 64px #efbf0440, 0 0 0 4px #efbf04;
+  border: 2.5px solid #efbf04;
+  max-width: 480px;
+  width: 100%;
+  margin: 48px auto;
+  padding: 40px 32px 32px 32px;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+.rpg-contact-card:before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 32px;
+  pointer-events: none;
+  background: linear-gradient(120deg, #efbf0440 0%, #fffbe610 100%);
+  z-index: 0;
+}
+.rpg-contact-header {
+  text-align: center;
+  margin-bottom: 32px;
+}
+.rpg-contact-badge {
+  display: inline-block;
+  background: #23232b;
+  color: #efbf04;
+  font-size: 1.1rem;
+  font-family: 'Orbitron', 'Montserrat', 'sans-serif';
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  padding: 8px 22px;
+  border-radius: 18px;
+  margin-bottom: 18px;
+  box-shadow: 0 0 16px #efbf0440;
+  border: 1.5px solid #efbf04;
+}
+.rpg-contact-title {
+  font-family: 'Cinzel', 'serif';
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #fffbe6;
+  margin: 0 0 8px 0;
+  letter-spacing: 0.04em;
+  line-height: 1.1;
+}
+.rpg-contact-title-main {
+  display: block;
+  font-size: 2.2rem;
+  color: #efbf04;
+  text-shadow: 0 2px 16px #efbf0440;
+}
+.rpg-contact-title-sub {
+  display: block;
+  font-size: 1.1rem;
+  color: #fffbe6;
+  font-family: 'Orbitron', 'Montserrat', 'sans-serif';
+  font-weight: 400;
+  margin-top: 2px;
+}
+.rpg-contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  z-index: 2;
+  position: relative;
+}
+.rpg-contact-row {
+  display: flex;
+  gap: 14px;
+}
+.rpg-input {
+  flex: 1;
+  padding: 14px 16px;
+  border-radius: 12px;
+  border: 1.5px solid #efbf04;
+  background: rgba(35, 35, 43, 0.95);
+  color: #fffbe6;
+  font-size: 1rem;
+  font-family: 'Montserrat', 'sans-serif';
+  margin-bottom: 0;
+  box-shadow: 0 2px 12px #efbf0420;
+  transition: border 0.2s, box-shadow 0.2s;
+}
+.rpg-input:focus {
+  outline: none;
+  border: 2px solid #fffbe6;
+  box-shadow: 0 0 16px #efbf04cc;
+}
+.rpg-textarea {
+  min-height: 90px;
+  resize: vertical;
+}
+.rpg-btn-main {
+  width: 100%;
+  height: 56px;
+  color: #fffbe6;
+  background: linear-gradient(90deg, #18181b 60%, #efbf04 100%);
+  border: 2px solid #efbf04;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin: 18px auto 0 auto;
+  font-weight: 700;
+  font-size: 1.15rem;
+  letter-spacing: 0.04em;
+  box-shadow: 0 0 24px #efbf0440;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  font-family: 'Orbitron', 'Montserrat', 'sans-serif';
+  transition: box-shadow 0.2s, border 0.2s, background 0.2s;
+}
+.rpg-btn-main .rpg-btn-text {
+  z-index: 2;
+  position: relative;
+  font-family: 'Orbitron', 'Montserrat', 'sans-serif';
+  text-shadow: 0 2px 8px #000a;
+}
+.rpg-btn-main .rpg-arrow {
+  width: 32px;
+  height: 32px;
+  transition: transform 0.3s cubic-bezier(.4,2,.6,1), filter 0.2s;
+  filter: drop-shadow(0 0 8px #efbf04cc);
+  z-index: 2;
+}
+.rpg-btn-main .rpg-btn-glow {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 16px;
+  background: radial-gradient(circle, #efbf0440 0%, transparent 80%);
+  z-index: 1;
+  pointer-events: none;
+  opacity: 0.7;
+}
+.rpg-btn-main:hover {
+  box-shadow: 0 0 48px #efbf04cc, 0 0 0 4px #fffbe6;
+  border-color: #fffbe6;
+  background: linear-gradient(90deg, #efbf04 60%, #18181b 100%);
+}
+.rpg-btn-main:hover .rpg-arrow {
+  transform: translateX(10px) scale(1.15) rotate(6deg);
+  filter: drop-shadow(0 0 16px #fffbe6);
+}
+@media (max-width: 700px) {
+  .rpg-contact-card {
+    padding: 18px 6px 18px 6px;
+    border-radius: 18px;
+  }
+  .rpg-contact-title, .rpg-contact-title-main {
+    font-size: 1.3rem;
+  }
+  .rpg-contact-row {
+    flex-direction: column;
+    gap: 8px;
+  }
+}
