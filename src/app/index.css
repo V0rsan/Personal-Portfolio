@@ -1,5 +1,4 @@
 .reference-title {
-  /* Default font-size remains as set above */
 }
 
 @media (max-width: 600px) {
@@ -10,7 +9,7 @@
 .reference-title,
 .reference-name, .reference-brand, .reference-ticker, .reference-meta {
   font-family: 'Inter', Arial, sans-serif !important;
-  font-weight: 600 !important;
+  font-weight: 800 !important;
 }
 
 .about-title {
@@ -399,8 +398,9 @@ h1, h2, h3, h4, h5, h6, .font-bold, .inter-bold {
 }
 
 .reference-title {
-  font-size: clamp(4.6rem, 10vw, 10.2rem);
+  font-size: clamp(7.2rem, 8vw, 8.2rem);
   font-weight: 600;
+  line-height: -2.2;
 }
 
 .reference-title span,

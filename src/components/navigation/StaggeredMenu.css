@@ -235,7 +235,8 @@
   align-items: center;
   gap: 0.6rem;
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: bold;
+  font-weight: 900;
   color: #fff;
   text-decoration: none;
   position: relative;
