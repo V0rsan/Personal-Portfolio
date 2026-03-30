@@ -18,6 +18,7 @@ gsap.registerPlugin(ScrollTrigger)
 const wrathImage = '/assets/wrath.png'
 const nodeImage = '/assets/nodejs.png'
 const reactImage = '/assets/reacr.png'
+const tailwindImage = '/assets/tailwind.png'
 const gsapImage = '/assets/gsap.png'
 const nextjsImage = '/assets/nextjs.png'
 const framerImage = '/assets/framer.png'
@@ -27,7 +28,7 @@ const figmaImage = '/assets/figma.png'
 
 const skillOrbitItems = [
   { label: 'React', icon: <img src={reactImage} alt='' className='projects-tech-image' /> },
-  { label: 'Next.js', icon: <img src={nextjsImage} alt='' className='projects-tech-image' /> },
+  { label: 'Tailwind CSS', icon: <img src={tailwindImage} alt='' className='projects-tech-image' /> },
   { label: 'JavaScript', icon: <img src={javascriptImage} alt='' className='projects-tech-image' /> },
   { label: 'CSS', icon: <img src={cssImage} alt='' className='projects-tech-image' /> },
   { label: 'GSAP', icon: <img src={gsapImage} alt='' className='projects-tech-image' /> },

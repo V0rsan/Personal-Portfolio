@@ -94,13 +94,13 @@ export function ExpandableCard({
                   <div>
                     <motion.p
                       layoutId={`description-${description}-${id}`}
-                      className="text-lg text-zinc-500 dark:text-zinc-400"
+                      className="text-lg font-normal text-zinc-500 dark:text-zinc-400"
                     >
                       {description}
                     </motion.p>
                     <motion.h3
                       layoutId={`title-${title}-${id}`}
-                      className="mt-0.5 text-4xl font-semibold text-black sm:text-4xl dark:text-white"
+                      className="mt-0.5 text-4xl font-medium text-black sm:text-4xl dark:text-white"
                     >
                       {title}
                     </motion.h3>
@@ -172,13 +172,13 @@ export function ExpandableCard({
             <div className="flex flex-col">
               <motion.p
                 layoutId={`description-${description}-${id}`}
-                className="text-sm font-medium text-zinc-500 md:text-left dark:text-zinc-400"
+                className="text-sm font-normal text-zinc-500 md:text-left dark:text-zinc-400"
               >
                 {description}
               </motion.p>
               <motion.h3
                 layoutId={`title-${title}-${id}`}
-                className="font-semibold text-black md:text-left dark:text-white"
+                className="font-medium text-black md:text-left dark:text-white"
               >
                 {title}
               </motion.h3>
